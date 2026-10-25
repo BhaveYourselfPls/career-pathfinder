@@ -24,6 +24,10 @@
   .title-block dl { display: grid; grid-template-columns: 110px 1fr; gap: 2px 12px; margin: 12px 0 0; font-size: 10pt; }
   .title-block dt { color: var(--muted); }
   .title-block dd { margin: 0; }
+  .repo-box { margin: 14px 0 4px; padding: 12px 16px; border: 2px solid var(--blue); border-radius: 8px; background: var(--blue-soft); break-inside: avoid; }
+  .repo-label { display: block; font-size: 8.5pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--blue-dark); margin-bottom: 2px; }
+  .repo-url { font-size: 14pt; font-weight: 700; color: var(--blue); text-decoration: none; word-break: break-all; }
+  @media print { .repo-url { color: var(--blue) !important; } }
   table { width: 100%; border-collapse: collapse; margin: 6px 0 10px; font-size: 9.2pt; break-inside: avoid; }
   th { text-align: left; background: var(--ink); color: #fff; font-weight: 600; padding: 5px 7px; }
   td { padding: 4px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -57,9 +61,12 @@
 <header class="title-block">
   <h1>Career Pathfinder</h1>
   <p class="lead">An AI app that turns "what do I want to do?" into a researched, multi-year career map with the decision points you will face and a timed plan for each skill you will need.</p>
+  <div class="repo-box">
+    <span class="repo-label">GitHub repository</span>
+    <a class="repo-url" href="https://github.com/BhaveYourselfPls/career-pathfinder">https://github.com/BhaveYourselfPls/career-pathfinder</a>
+  </div>
   <dl>
     <dt>Author</dt><dd>Amin Duncan-Pope · MGT 409 AI Foundations for Managers · Final project · October 2026</dd>
-    <dt>GitHub</dt><dd><a href="https://github.com/BhaveYourselfPls/career-pathfinder">https://github.com/BhaveYourselfPls/career-pathfinder</a></dd>
     <dt>App</dt><dd>Runs locally: <code>pip install -r requirements.txt</code> then <code>python app.py</code> (step-by-step guide in the README). Not hosted online.</dd>
     <dt>Models</dt><dd>OpenAI <code>gpt-5.6-luna</code> via the Portkey gateway; OpenAI hosted web search</dd>
   </dl>
@@ -320,6 +327,10 @@ Offline test suite: python -m pytest → 25 passed</pre>
   <li>Accounts and a counsellor view: share a plan, comment on it, and see common goals across students.</li>
   <li>Check maps against real career histories (anonymized alumni data) to measure how realistic the forks and timings are.</li>
 </ol>
+<div class="repo-box">
+  <span class="repo-label">Code, README (how to run it) and this report</span>
+  <a class="repo-url" href="https://github.com/BhaveYourselfPls/career-pathfinder">https://github.com/BhaveYourselfPls/career-pathfinder</a>
+</div>
 
 <h2 style="font-size:12pt">References</h2>
 <ol class="refs">
