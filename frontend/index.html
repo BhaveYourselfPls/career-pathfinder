@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career Pathfinder</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Career <span>Pathfinder</span></div>
+    <nav aria-label="Progress">
+      <ol class="steps" id="steps">
+        <li data-step="1"><button type="button"><span class="num">1</span><span class="lbl">Starting point</span></button></li>
+        <li data-step="2"><button type="button"><span class="num">2</span><span class="lbl">Positions</span></button></li>
+        <li data-step="3"><button type="button"><span class="num">3</span><span class="lbl">Career paths</span></button></li>
+        <li data-step="4"><button type="button"><span class="num">4</span><span class="lbl">Skills</span></button></li>
+        <li data-step="5"><button type="button"><span class="num">5</span><span class="lbl">Your plan</span></button></li>
+      </ol>
+    </nav>
+    <div class="usage" id="usage" title="Web searches used in this run (limit enforced by the app)">Searches 0/15</div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+  <main id="view" class="view" tabindex="-1"></main>
+
+  <footer class="foot">
+    <span>Guidance only, not professional career or financial advice. Figures are estimates; check sources.</span>
+    <span class="foot-actions">
+      <button type="button" class="link" id="btn-save">Save progress</button>
+      <label class="link">Load saved<input type="file" id="file-load" accept="application/json" hidden></label>
+      <button type="button" class="link" id="btn-restart">Start over</button>
+    </span>
+  </footer>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

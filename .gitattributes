@@ -1,0 +1,5 @@
+# Keep LF line endings in the repository so the code behaves the same on every OS.
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+*.pdf binary

@@ -1,0 +1,25 @@
+Jordan A. Rivera
+jordan.rivera@example.com | (404) 555-0123 | linkedin.com/in/jordan-rivera-example
+123 Example Street, Atlanta, GA 30303
+
+(Fictional resume for testing Career Pathfinder. Contact details above are fake and are removed by the app before anything is sent to the AI.)
+
+SUMMARY
+Customer service leader with 7 years of experience moving from frontline support to team lead. Known for coaching agents, reducing escalations and turning service data into weekly improvements.
+
+EXPERIENCE
+Customer Service Team Lead, Peachtree Home Services, Atlanta, GA (2021 - present)
+- Lead a team of 8 support agents handling phone, chat and email.
+- Cut escalations 20% by redesigning the escalation playbook and coaching on de-escalation.
+- Build the weekly KPI report (CSAT, first-contact resolution, handle time) in Excel for the operations manager.
+- Trained 15 new hires and wrote the onboarding guide.
+
+Customer Service Representative, Southern Cable Co., Atlanta, GA (2018 - 2021)
+- Resolved 60+ customer calls per day; consistently in the top 10% for CSAT.
+- Volunteered as a floor mentor for new representatives.
+
+EDUCATION
+B.A. Communications, Georgia State University, 2018
+
+SKILLS
+Zendesk, Salesforce Service Cloud, Excel (pivot tables, charts), de-escalation, coaching, KPI reporting, conversational Spanish
