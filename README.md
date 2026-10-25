@@ -2,7 +2,7 @@
 
 An AI app that shows people what a career could look like over the next 15–25 years, including the **inflection points** where they will have to choose between paths (for example, management or specialist), and builds a timed plan to get there.
 
-MGT 409 (AI Foundations for Managers), final project by Amin Duncan-Pope. The project report is [`report.html`](report.html), a single file that opens in any browser and prints to 13 letter pages.
+MGT 409 (AI Foundations for Managers), final project by Amin Duncan-Pope. The project report is [`report.html`](report.html), a single file that opens in any browser and prints to 13 letter pages. The 10-slide deck is [`slides.html`](slides.html) (reveal.js; use the arrow keys, F for full screen).
 
 ---
 
